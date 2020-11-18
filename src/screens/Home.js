@@ -7,8 +7,8 @@ export default function Home(props) {
         <View>
             <Text>Estamos en la HOME</Text>
 
-            <Button title='Ir a About' onPress={() => navigation.navigate('about')} />
-            <Button title='Ir a Contact' onPress={() => navigation.navigate('contact')} />
+            <Button title='Ir a About' onPress={()=>navigation.navigate('about')} />
+            <Button title='Ir a Contact' onPress={()=>navigation.navigate('contact')} />
         </View>
     )
 }
